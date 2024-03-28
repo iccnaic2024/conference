@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+*{
+    font-family: "Yatra One", system-ui;
+    font-style: normal;
+    padding: 0;
+    margin-right: 0px;
+    margin: 0;
+}
+video{
+    width: 100%;
+    height: 100hv;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+nav{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 2;
+    background-color: rgb(9, 4, 70);
+    font-size: 18px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+li{
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
+    line-height: 40px;
+    margin-top: 8px;
+}
+.bg-video{
+    height: 100vh;
+    
+}
+nav li a:hover{
+    color: yellow;  transition: 0.3s;
+    transform-origin: center;
+    box-sizing: content-box;
+    border-bottom: 2px solid lightcoral;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(255, 166, 0);
+    font-weight: 600; 
+}
+.logo{
+    font-size: 22px;
+    margin-left: 40px;
+    font-weight: 700;
+    box-shadow: 1px 3px 5px lightcoral;
+    padding: 0px 15px 0px 15px;color: orange;
+}
+.logo:hover{
+    transition: all 0.4s;
+    transform: scale(1.1);
+    
+}
+i{
+    color: white;
+    font-size: 30px;
+    border: 2px solid rgb(17, 8, 99);
+    padding: 0.2em;
+    margin-top: 13px;box-shadow: 1px 3px 5px rgb(252, 252, 252);
+}
+i:hover{
+    transition: 0.2s all;
+    transform: scale(1.1);
+}
+.menu{
+    cursor: pointer;
+    display: none;
+}
+.clg-logo img{
+    width: 300px;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+}
+.consl img{
+    position: absolute;
+    right: 30px;
+    top: 80px;
+    width:199px;height:181px;
+}
+.head{
+    text-transform:capitalize;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    top: 37%;
+    text-align: center;
+    margin-left: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#tit{
+    font-size: 50px; text-transform: uppercase; font-weight: 700;
+}
+marquee{
+    text-transform: capitalize;
+    color:yellow;
+    position: absolute;
+    top: 480px;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+}
+header{
+    height: auto;
+    display: block;
+}
+section{  
+    background-color: white;
+    color: rgb(33, 3, 82);
+    margin-top: 40px;
+}
+.tittle{
+    padding: 1em;
+}
+.tittle img{ 
+    height: 300px;
+    border-radius: 14px;
+    box-shadow: 5px 7px 10px rgb(100, 87, 76);
+    margin-left: 4px;   
+    margin-top: 80px;
+}
+#hed{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.tittle .about p{
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(7, 6, 5);
+    text-indent: 54px;
+    font-size: 18px;
+}
+.section-1{
+    padding: 1em 0 1em 0;
+    background-color: aliceblue;
+    width: 100%;
+    height: auto;
+} 
+.section-1 .row{
+    margin: 20px;
+
+}
+.section-1 p{
+    text-align: center;
+    padding-top: 1em;
+    
+}
+.section-1 .row img{ 
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 5px 7px 10px rgb(114, 88, 63);
+}
+.section-1 .row img:hover{
+    transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+.container iframe{
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+    box-shadow: 1px 3px 6px gray;
+    border-radius: 16px;
+}
+.r-fom{
+    background-image: url('abstract-background-texture_196038-11485.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.reg-fom{
+    margin-top: 20px;
+}
+.img-fom{
+   text-align: center;
+}
+
+footer .ft col{
+    margin: auto;
+}
+
+/*media -----for mobile  --- */
+@media all and (max-width:950px){
+ 
+    video{
+        width: 100%;
+        height: auto;
+    }
+    nav{
+        flex-direction: column;
+       
+    }
+    ul{
+        display: none; 
+    }
+    li{
+        display: block;
+        text-align: center;
+    }
+   
+    .logo{
+        align-self:self-end;
+        padding: 0.2em;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 2px;
+        margin-top: -6px;
+        margin-left: 5px;
+    }
+    .clg-logo img{
+        display: block;
+        width: 100px;
+        position: absolute;
+        top: 50px;
+        left: 7px;
+    }
+    .consl img{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 50px;
+        width:60px;height:50px;
+    }
+    .head{
+        text-align: center;
+        font-size: 16px;
+        position: absolute;
+        top: 10%;
+        margin:auto;
+        z-index: -1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #tit{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    marquee{
+       display: none;
+    }
+    .bg-video{
+        height:167px ;
+    }
+    .tittle img{
+        display: none;
+    }
+    .container iframe{
+        height: 260px;
+        width: 100%;
+    }
+}
+
+/* JAVASCRIPT CODING USE*/
+.showmenu{
+    display: block;
+}

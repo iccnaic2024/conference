@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="Home.css">
+       </head>
+       <style>
+
+        body{
+            background-image: url('pexels-photo-326333.jpeg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            width: 100%;
+            height: auto;
+            color:rgb(255, 255, 255);
+            font-size: 20px;
+        }
+        .publ{
+            margin-top: 100px;
+        }
+       
+       </style>
+<body>
+     <!--top nav bar-start-->
+     <div class="container-fluid-sm container-fluid-md">
+        <nav width="100%" >
+            <div class="logo">ACET</div>
+             <ul>
+                 <li><a href="index.html">home</a></li>
+                 <li><a href="committee.html">committee</a></li>
+                 <li><a href="#speaker">speakers</a></li>
+                 <li><a href="call_for_papers.html">call for papers</a></li>
+                 <li><a href="Publication.html">publication</a></li>
+                 <li><a href="broucher.html">broucher</a></li>
+                 <li><a href="#contact">contact</a></li>
+             </ul>
+             <div class="menu">
+                 <i class="fa fas-bars">/=/</i>
+             </div>
+         </nav>
+     </div>
+   <!--top nav bar-end-->
+
+   <div class="publ container">  
+<div class="main_head" style="font-size: 30px; text-transform: uppercase; font-weight: 800;">
+    Publication 
+</div><br>
+	All the papers submitted for conference will be peer reviewed and published in <br><br>
+o	IOP Conference Series: Journal of Physics<br><br>
+o	AIP Conference Proceedings<br><br>
+o	Taylor & Francis Conference Proceeding<br><br>
+o	Nanotechnology Nanoscience and Nanotechnology - Asia <br><br>
+o	Biosensors(SCIE)
+   </div>
+<div class="pub_con">
+    
+</div>
+<!--footer tag-->
+
+<footer>
+    <div class="container" style="text-align: center; color: rgb(6, 192, 68); font-weight: 800;">
+        <div class="row ft py-4">
+            <div class="col"> <span style="color: rgb(247, 117, 31); font-weight: 600; font-size: 27px;">FOR REGISTRATION</span> <br> Phone : (+91) 9791423554 <br>
+                Email : iccnaic@adhi.edu.in
+                <br><br>Copy Right<span style="font-size: 20px;color: rgb(195, 195, 230);"> &copy</span>iccnaic
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+<!--javascrip code-->
+<script>
+
+const menu=document.querySelector('.menu');
+const menulist=document.querySelector('nav ul');
+menu.addEventListener('click',()=>
+{
+menulist.classList.toggle('showmenu')
+})
+</script>
+</html>
